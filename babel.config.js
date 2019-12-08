@@ -6,5 +6,8 @@ module.exports = {
     "@babel/preset-env",
     // Ele vai transformar as coisas que o navegador não entende do react, como o jsx por ex.
     "@babel/preset-react"
+  ],
+  plugins: [
+    '@babel/plugin-proposal-class-properties'
   ]
 }

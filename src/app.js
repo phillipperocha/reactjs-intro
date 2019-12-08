@@ -1,10 +1,10 @@
 import React from 'react';
-import './App.css'
+import './App.css';
 
-import homemamanha from './assets/dev.png'
+import TechList from './components/TechList';
 
 function App() {
-  return <img width="200" src={homemamanha} />
+  return <TechList />
 }
 
 export default App;
