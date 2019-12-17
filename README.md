@@ -940,3 +940,16 @@ A função `componentWillUnmount` é utilizada muito pouco, mas um cenário seri
 
 Os métodos mais utilizados são componentDidMount, depois componentDidUpdate e por fim componentWillUnmount, geralmente nessa sequência.
 
+## Aula 11 - Debugando React com DevTools
+
+Para debuggar a aplicação com React, é muito interessante utilizar a extensão do google: [react-developer-tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
+
+Para utilizar, depois de instalar bastar clicar inspecionar elemento, e selecionar a aba React.
+
+Ela vai mostrar todos os componentes, com estado, as propriedades.
+
+Isso é muito bom para ver o ciclo de vida do React.
+
+Chegamos ao fim da introdução ao React.
+
+Agora tem o [desafio](https://github.com/tgmarinho/faceseat) para fazer! Bora programar!
